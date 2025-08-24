@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useMemo } from "react"
-import { notFound } from "next/navigation"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import ProductGrid from "@/components/product-grid"
@@ -19,20 +18,16 @@ import { getProductsByCategory, categories } from "@/lib/products"
 import { searchAndFilterProducts, type SearchOptions } from "@/lib/search"
 
 interface CategoryPageClientProps {
-  params: {
-    slug: string
-  }
+  slug: string
+
 }
 
-export default function CategoryPageClient({ params }: CategoryPageClientProps) {
-  const category = categories.find((cat) => cat.id === params.slug)
+export default function CategoryPageClient({ slug }: CategoryPageClientProps) {
+  console.log('[CategoryPageClient] params:', slug)
+  const category = categories.find((cat) => cat.id === slug)
 
-  if (!category) {
-    notFound()
-  }
-
-  const allCategoryProducts = getProductsByCategory(params.slug)
-  const [filtersOpen, setFiltersOpen] = useState(false)
+  const allCategoryProducts = getProductsByCategory(slug)
+  const [filtersOpen, setFiltersOpen] = useState(true)
   const [sortBy, setSortBy] = useState<SearchOptions["sortBy"]>("featured")
 
   // Initialize filters

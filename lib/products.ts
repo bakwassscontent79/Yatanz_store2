@@ -35,7 +35,7 @@ export const products: Product[] = [
     price: 1299,
     originalPrice: 1599,
     images: [
-      "/placeholder.svg?height=600&width=600&text=2+Tier+Square+Basket+Main",
+      "https://m.media-amazon.com/images/I/61Q1Pa4X4-L._SL1500_.jpg",
       "/placeholder.svg?height=600&width=600&text=2+Tier+Square+Side+View",
       "/placeholder.svg?height=600&width=600&text=2+Tier+Square+Detail",
       "/placeholder.svg?height=600&width=600&text=2+Tier+Square+In+Use",
@@ -898,7 +898,7 @@ export function getProductsByCategory(categoryId: string): Product[] {
 }
 
 export function getFeaturedProducts(): Product[] {
-  return products.filter((product) => product.featured)
+  return products.filter((product) => product.featured).slice(0, 8)
 }
 
 export function getProductById(id: string): Product | undefined {

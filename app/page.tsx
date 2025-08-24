@@ -152,7 +152,7 @@ export default function HomePage() {
                       {category.name}
                     </h3>
                     <p className="text-muted-foreground text-sm">{category.description}</p>
-                    <Button variant="ghost" className="w-full justify-between p-0 h-auto" asChild>
+                    <Button variant="ghost" className="w-full justify-between p-2 h-auto" asChild>
                       <Link href={category.href}>
                         Explore Collection
                         <ArrowRight className="h-4 w-4" />
@@ -176,7 +176,7 @@ export default function HomePage() {
           />
           <div className="text-center mt-12">
             <Button size="lg" variant="outline" asChild>
-              <Link href="/category/storage-baskets">
+              <Link href="/product">
                 View All Products <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

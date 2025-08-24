@@ -8,19 +8,19 @@ interface CategoryPageProps {
 }
 
 export default function CategoryPage({ params }: CategoryPageProps) {
-  return <CategoryPageClient params={params} />
+  return <CategoryPageClient slug={params.slug} />
 }
 
 // Generate static params for all categories
 export function generateStaticParams() {
   return categories.map((category) => ({
-    slug: category.id,
+    slug: category.id,  // ✅ id is the slug
   }))
 }
 
 // Generate metadata for each category page
 export function generateMetadata({ params }: CategoryPageProps) {
-  const category = categories.find((cat) => cat.id === params.slug)
+  const category = categories.find((cat) => cat.id === params.slug) // ✅ compare id
 
   if (!category) {
     return {
