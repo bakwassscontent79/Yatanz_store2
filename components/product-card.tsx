@@ -1,10 +1,9 @@
-import { Card, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { MessageCircle, Eye } from "lucide-react"
-import Link from "next/link"
+import { Button } from "@/components/ui/button"
 import type { Product } from "@/lib/products"
 import { createWhatsAppUrl } from "@/lib/whatsapp"
+import { Eye, MessageCircle } from "lucide-react"
+import Link from "next/link"
 
 interface ProductCardProps {
   product: Product
@@ -18,14 +17,14 @@ export default function ProductCard({ product }: ProductCardProps) {
   })
 
   return (
-    <Card className="group hover:shadow-lg transition-all duration-300 border-border">
-      <CardContent className="p-0">
+    <div className="group hover:shadow-lg transition-all duration-300 border rounded-md border-border">
+      <div className="p-0">
         {/* Product Image */}
         <div className="relative overflow-hidden rounded-t-lg">
           <img
             src={product.images[0] || "/placeholder.svg"}
             alt={product.name}
-            className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+            className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
           />
           {product.originalPrice && (
             <Badge className="absolute top-2 left-2 bg-destructive text-destructive-foreground">
@@ -98,7 +97,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             </Button>
           </div>
         </div>
-      </CardContent>
-    </Card>
+      </div>
+    </div>
   )
 }
