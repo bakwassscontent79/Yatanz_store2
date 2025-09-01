@@ -35,10 +35,11 @@ export const products: Product[] = [
     price: 1299,
     originalPrice: 1599,
     images: [
-      "https://m.media-amazon.com/images/I/61Q1Pa4X4-L._SL1500_.jpg",
-      "/placeholder.svg?height=600&width=600&text=2+Tier+Square+Side+View",
-      "/placeholder.svg?height=600&width=600&text=2+Tier+Square+Detail",
-      "/placeholder.svg?height=600&width=600&text=2+Tier+Square+In+Use",
+      "https://m.media-amazon.com/images/I/61XTgguf9kL.jpg",
+      "https://m.media-amazon.com/images/I/51qdEScHECL.jpg",
+      "https://m.media-amazon.com/images/I/51aYNIMDPoL.jpg",
+      "https://m.media-amazon.com/images/I/61P4ixSkhiL.jpg",
+      "https://m.media-amazon.com/images/I/51-ZVJwmseL.jpg"
     ],
     variants: { tier: "2 Tier", shape: "Square" },
     specifications: {
@@ -59,9 +60,11 @@ export const products: Product[] = [
     price: 1399,
     originalPrice: 1699,
     images: [
-      "/placeholder.svg?height=600&width=600&text=2+Tier+Round+Basket+Main",
-      "/placeholder.svg?height=600&width=600&text=2+Tier+Round+Side+View",
-      "/placeholder.svg?height=600&width=600&text=2+Tier+Round+Detail",
+      "https://m.media-amazon.com/images/I/61VDCDMvTvL.jpg",
+      "https://m.media-amazon.com/images/I/51+Grppbe2L.jpg",
+      "https://m.media-amazon.com/images/I/61O7Ob2C9wL.jpg",
+      "https://m.media-amazon.com/images/I/619QU2X2hKL.jpg",
+      "https://m.media-amazon.com/images/I/516qV+NLEkL.jpg"
     ],
     variants: { tier: "2 Tier", shape: "Round" },
     specifications: {
@@ -81,11 +84,13 @@ export const products: Product[] = [
     price: 1799,
     originalPrice: 2199,
     images: [
-      "/placeholder.svg?height=600&width=600&text=3+Tier+Square+Basket+Main",
-      "/placeholder.svg?height=600&width=600&text=3+Tier+Square+Side+View",
-      "/placeholder.svg?height=600&width=600&text=3+Tier+Square+Detail",
-      "/placeholder.svg?height=600&width=600&text=3+Tier+Square+Assembly",
-    ],
+      "https://m.media-amazon.com/images/I/61ZP5+IbzTL.jpg",
+      "https://m.media-amazon.com/images/I/61ZyXXu9ZfL.jpg",
+      "https://m.media-amazon.com/images/I/51VlC-3qQpL.jpg",
+      "https://m.media-amazon.com/images/I/61P0cYL97NL.jpg",
+      "https://m.media-amazon.com/images/I/51Y6c-ve0CL.jpg"
+
+      ],
     variants: { tier: "3 Tier", shape: "Square" },
     specifications: {
       material: "Premium Steel with Powder Coating",
@@ -103,7 +108,12 @@ export const products: Product[] = [
     subcategory: "Multipurpose Storage Basket",
     description: "Stylish 3-tier round storage basket combining functionality with aesthetic appeal.",
     price: 1899,
-    images: ["/placeholder.svg?height=400&width=400&text=3+Tier+Round+Basket"],
+    images: ["https://m.media-amazon.com/images/I/61awPmKco4L.jpg",
+      "https://m.media-amazon.com/images/I/51Y9QCqsS7L.jpg",
+      "https://m.media-amazon.com/images/I/61Wq96lgfQL.jpg",
+      "https://m.media-amazon.com/images/I/61WOY5Ldx2L.jpg",
+      "https://m.media-amazon.com/images/I/519lyeYZIcL.jpg"
+    ],
     variants: { tier: "3 Tier", shape: "Round" },
     specifications: {
       material: "Premium Steel with Powder Coating",
@@ -122,9 +132,11 @@ export const products: Product[] = [
     price: 2299,
     originalPrice: 2799,
     images: [
-      "/placeholder.svg?height=600&width=600&text=4+Tier+Square+Basket+Main",
-      "/placeholder.svg?height=600&width=600&text=4+Tier+Square+Side+View",
-      "/placeholder.svg?height=600&width=600&text=4+Tier+Square+Detail",
+      "https://m.media-amazon.com/images/I/61iKwlWWuJL.jpg",
+      "https://m.media-amazon.com/images/I/61iKwlWWuJL.jpg",
+      "https://m.media-amazon.com/images/I/51k0FHY9nDL.jpg",
+      "https://m.media-amazon.com/images/I/61u-CQ+3dCL.jpg",
+      "https://m.media-amazon.com/images/I/51fex8tszKL.jpg"
     ],
     variants: { tier: "4 Tier", shape: "Square" },
     specifications: {
@@ -142,7 +154,13 @@ export const products: Product[] = [
     subcategory: "Multipurpose Storage Basket",
     description: "Premium 4-tier round storage basket with elegant design and superior capacity.",
     price: 2399,
-    images: ["/placeholder.svg?height=400&width=400&text=4+Tier+Round+Basket"],
+    images: ["https://m.media-amazon.com/images/I/61QmGIGaujL.jpg",
+      "https://m.media-amazon.com/images/I/51dTC0GzqBL.jpg",
+      "https://m.media-amazon.com/images/I/51PglOjBmhL.jpg",
+      "https://m.media-amazon.com/images/I/61Ob2DV5OGL.jpg",
+      "https://m.media-amazon.com/images/I/51KbemWZc1L.jpg"
+
+    ],
     variants: { tier: "4 Tier", shape: "Round" },
     specifications: {
       material: "Premium Steel with Powder Coating",
@@ -161,8 +179,11 @@ export const products: Product[] = [
     price: 2799,
     originalPrice: 3299,
     images: [
-      "/placeholder.svg?height=600&width=600&text=5+Tier+Square+Basket+Main",
-      "/placeholder.svg?height=600&width=600&text=5+Tier+Square+Side+View",
+      "https://m.media-amazon.com/images/I/61T0n+27-WL.jpg",
+      "https://m.media-amazon.com/images/I/51ewqe7Zo8L.jpg",
+      "https://m.media-amazon.com/images/I/61SlEwB7XzL.jpg",
+      "https://m.media-amazon.com/images/I/61PWKXhOsFL.jpg",
+      "https://m.media-amazon.com/images/I/51VgLLv9q9L.jpg"
     ],
     variants: { tier: "5 Tier", shape: "Square" },
     specifications: {
@@ -181,7 +202,12 @@ export const products: Product[] = [
     subcategory: "Multipurpose Storage Basket",
     description: "Top-tier 5-level round storage basket for comprehensive organization solutions.",
     price: 2899,
-    images: ["/placeholder.svg?height=400&width=400&text=5+Tier+Round+Basket"],
+    images: ["https://m.media-amazon.com/images/I/51htkSFixnL.jpg",
+      "https://m.media-amazon.com/images/I/51jUi5RmvvL.jpg",
+      "https://m.media-amazon.com/images/I/51GhM1eHTRL.jpg",
+      "https://m.media-amazon.com/images/I/611M94mf-mL.jpg",
+      "https://m.media-amazon.com/images/I/51GkZsC2zWL.jpg"
+    ],
     variants: { tier: "5 Tier", shape: "Round" },
     specifications: {
       material: "Premium Steel with Powder Coating",
@@ -275,7 +301,12 @@ export const products: Product[] = [
     subcategory: "Single Inverter Trolley",
     description: "Sturdy single inverter trolley with wheels for easy mobility. Perfect for home and office use.",
     price: 2299,
-    images: ["/placeholder.svg?height=400&width=400&text=Single+Inverter+Trolley+Black"],
+    images: ["https://m.media-amazon.com/images/I/61S49mGCbjL._SL1409_.jpg",
+      "https://m.media-amazon.com/images/I/61lA4iuOA0L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61N+zcfrW1L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61qvhlDxOSL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/617p7Ac+hdL._SL1500_.jpg"
+    ],
     variants: { color: "Black" },
     specifications: {
       material: "Heavy Duty Steel Frame",
@@ -292,7 +323,12 @@ export const products: Product[] = [
     subcategory: "Single Inverter Trolley",
     description: "Professional white single inverter trolley with premium finish and smooth mobility.",
     price: 2299,
-    images: ["/placeholder.svg?height=400&width=400&text=Single+Inverter+Trolley+White"],
+    images: ["https://m.media-amazon.com/images/I/61jYQdZwOrL._SL1221_.jpg",
+      "https://m.media-amazon.com/images/I/61NBUdXZV1L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/617MO1c2xXL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/617MO1c2xXL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61KmpktRwGL._SL1500_.jpg"
+    ],
     variants: { color: "White" },
     specifications: {
       material: "Heavy Duty Steel Frame",
@@ -312,7 +348,12 @@ export const products: Product[] = [
     description: "Heavy-duty double inverter trolley with enhanced capacity and stability for professional use.",
     price: 3299,
     originalPrice: 3799,
-    images: ["/placeholder.svg?height=400&width=400&text=Double+Inverter+Trolley+Black"],
+    images: ["https://m.media-amazon.com/images/I/61sIa7IJquL._SL1024_.jpg",
+      "https://m.media-amazon.com/images/I/61o+Q0zW-FL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61ExQWWo+NL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61ShG3bUSQL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61vXIg47YpL._SL1500_.jpg"
+    ],
     variants: { color: "Black" },
     specifications: {
       material: "Heavy Duty Steel Frame",
@@ -330,7 +371,11 @@ export const products: Product[] = [
     description: "Premium white double inverter trolley with superior build quality and professional aesthetics.",
     price: 3299,
     originalPrice: 3799,
-    images: ["/placeholder.svg?height=400&width=400&text=Double+Inverter+Trolley+White"],
+    images: ["https://m.media-amazon.com/images/I/61KrZADPHUL._SL1024_.jpg",
+      "https://m.media-amazon.com/images/I/61bbpaMnOsL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61TIIUn4nrL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61mk43WHBhL._SL1500_.jpg"
+    ],
     variants: { color: "White" },
     specifications: {
       material: "Heavy Duty Steel Frame",
@@ -457,7 +502,13 @@ export const products: Product[] = [
     description: "Professional 3-tier black printer stand with dedicated storage for office equipment and supplies.",
     price: 2199,
     originalPrice: 2599,
-    images: ["/placeholder.svg?height=400&width=400&text=3+Tier+Printer+Stand+Black"],
+    images: ["https://m.media-amazon.com/images/I/71TdE2EPZpL._SL1318_.jpg",
+      "https://m.media-amazon.com/images/I/51d-ByG2OiL.jpg",
+      "https://m.media-amazon.com/images/I/61uF+C2tKvL.jpg",
+      "https://m.media-amazon.com/images/I/51Fdc86L0ZL.jpg",
+
+      "https://m.media-amazon.com/images/I/51E5tCkalbL.jpg"
+    ],
     variants: { tier: "3 Tier", color: "Black" },
     specifications: {
       material: "Engineered Wood with Steel Frame",
@@ -475,7 +526,12 @@ export const products: Product[] = [
     description: "Clean 3-tier white printer stand with modern design perfect for home and office environments.",
     price: 2199,
     originalPrice: 2599,
-    images: ["/placeholder.svg?height=400&width=400&text=3+Tier+Printer+Stand+White"],
+    images: ["https://m.media-amazon.com/images/I/71TSq1kdJoL._SL1332_.jpg",
+      "https://m.media-amazon.com/images/I/51ef5Z6UzcL.jpg",
+      "https://m.media-amazon.com/images/I/515pBXhEcIL.jpg",
+      "https://m.media-amazon.com/images/I/51nps1nSWlL.jpg",
+      "https://m.media-amazon.com/images/I/51bfnxJjG6L.jpg"
+    ],
     variants: { tier: "3 Tier", color: "White" },
     specifications: {
       material: "Engineered Wood with Steel Frame",
@@ -493,7 +549,12 @@ export const products: Product[] = [
     description: "Elegant 3-tier golden printer stand with premium finish for sophisticated office spaces.",
     price: 2499,
     originalPrice: 2899,
-    images: ["/placeholder.svg?height=400&width=400&text=3+Tier+Printer+Stand+Golden"],
+    images: ["https://m.media-amazon.com/images/I/41uq6fL+92L.jpg",
+      "https://m.media-amazon.com/images/I/51D03LKPjxL.jpg",
+      "https://m.media-amazon.com/images/I/513ZKLWCYyL.jpg",
+      "https://m.media-amazon.com/images/I/51BRlI8HOGL.jpg",
+      "https://m.media-amazon.com/images/I/51YCEjsBndL.jpg"
+    ],
     variants: { tier: "3 Tier", color: "Golden" },
     specifications: {
       material: "Engineered Wood with Steel Frame",
