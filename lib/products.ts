@@ -513,7 +513,12 @@ export const products: Product[] = [
     subcategory: "Umbrella Stand",
     description: "Stylish black umbrella stand with water collection tray. Perfect for entryways.",
     price: 899,
-    images: ["/placeholder.svg?height=400&width=400&text=Umbrella+Stand+Black"],
+    images: ["https://m.media-amazon.com/images/I/71gLvtr2xRL._SL1339_.jpg",
+      "https://m.media-amazon.com/images/I/61WQycrT4QL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61TAvHiBXiL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/616thIX230L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61hDbIXYpQL._SL1500_.jpg"
+    ],
     variants: { color: "Black" },
     specifications: {
       material: "Steel with Powder Coating",
@@ -530,7 +535,12 @@ export const products: Product[] = [
     subcategory: "Umbrella Stand",
     description: "Clean white umbrella stand with minimalist design and practical water collection system.",
     price: 899,
-    images: ["/placeholder.svg?height=400&width=400&text=Umbrella+Stand+White"],
+    images: ["https://m.media-amazon.com/images/I/61pnBs0SrSL._SL1024_.jpg",
+      "https://m.media-amazon.com/images/I/61szXAFJn1L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61l7XjxE+uL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61hTZ2CON6L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61oRb4rCmIL._SL1500_.jpg "
+    ],
     variants: { color: "White" },
     specifications: {
       material: "Steel with Powder Coating",
@@ -547,7 +557,12 @@ export const products: Product[] = [
     subcategory: "Umbrella Stand",
     description: "Elegant golden umbrella stand that adds a touch of luxury to your entrance.",
     price: 1199,
-    images: ["/placeholder.svg?height=400&width=400&text=Umbrella+Stand+Golden"],
+    images: ["https://m.media-amazon.com/images/I/71xwViKjPvL._SL1345_.jpg",
+      "https://m.media-amazon.com/images/I/61wZ2S19sZL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61Xhkq2J2YL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/612TlZuDQFL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/614X6pEPbYL._SL1500_.jpg"
+    ],
     variants: { color: "Golden" },
     specifications: {
       material: "Steel with Golden Finish",
@@ -761,7 +776,12 @@ export const products: Product[] = [
     description: "24-inch tempered glass TV screen protector ideal for smaller displays and monitors.",
     price: 999,
     originalPrice: 1299,
-    images: ["/placeholder.svg?height=400&width=400&text=24+inch+TV+Protector"],
+    images: ["https://m.media-amazon.com/images/I/61z7+I+DCjL._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/61CtoBjdbSL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71QeEbsq9sL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61X0iU4aNyL._SL1080_.jpg",
+      "https://m.media-amazon.com/images/I/61McKwRvH-L._SL1000_.jpg"
+    ],
     variants: { size: '24"' },
     specifications: {
       material: "Tempered Glass",
@@ -777,7 +797,12 @@ export const products: Product[] = [
     subcategory: "TV Screen Protector",
     description: "32-inch tempered glass TV screen protector with 9H hardness and crystal clear visibility.",
     price: 1499,
-    images: ["/placeholder.svg?height=400&width=400&text=32+inch+TV+Protector"],
+    images: ["https://m.media-amazon.com/images/I/61z7+I+DCjL._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/61CtoBjdbSL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71QeEbsq9sL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61X0iU4aNyL._SL1080_.jpg",
+      "https://m.media-amazon.com/images/I/61McKwRvH-L._SL1000_.jpg"
+    ],
     variants: { size: '32"' },
     specifications: {
       material: "Tempered Glass",
@@ -793,7 +818,12 @@ export const products: Product[] = [
     subcategory: "TV Screen Protector",
     description: "43-inch premium tempered glass screen protector offering maximum protection for your TV.",
     price: 2199,
-    images: ["/placeholder.svg?height=400&width=400&text=43+inch+TV+Protector"],
+    images:["https://m.media-amazon.com/images/I/61z7+I+DCjL._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/61CtoBjdbSL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71QeEbsq9sL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61X0iU4aNyL._SL1080_.jpg",
+      "https://m.media-amazon.com/images/I/61McKwRvH-L._SL1000_.jpg"
+    ],
     variants: { size: '43"' },
     specifications: {
       material: "Tempered Glass",
@@ -811,7 +841,12 @@ export const products: Product[] = [
     description: "50-inch large format TV screen protector with advanced protection and clarity features.",
     price: 2999,
     originalPrice: 3499,
-    images: ["/placeholder.svg?height=400&width=400&text=50+inch+TV+Protector"],
+    images: ["https://m.media-amazon.com/images/I/61z7+I+DCjL._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/61CtoBjdbSL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71QeEbsq9sL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61X0iU4aNyL._SL1080_.jpg",
+      "https://m.media-amazon.com/images/I/61McKwRvH-L._SL1000_.jpg"
+    ],
     variants: { size: '50"' },
     specifications: {
       material: "Tempered Glass",
@@ -828,7 +863,12 @@ export const products: Product[] = [
     description: "65-inch large format TV screen protector with advanced protection technology.",
     price: 3999,
     originalPrice: 4499,
-    images: ["/placeholder.svg?height=400&width=400&text=65+inch+TV+Protector"],
+    images: ["https://m.media-amazon.com/images/I/61z7+I+DCjL._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/61CtoBjdbSL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71QeEbsq9sL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61X0iU4aNyL._SL1080_.jpg",
+      "https://m.media-amazon.com/images/I/61McKwRvH-L._SL1000_.jpg"
+    ],
     variants: { size: '65"' },
     specifications: {
       material: "Tempered Glass",
@@ -845,7 +885,12 @@ export const products: Product[] = [
     description: "75-inch extra-large TV screen protector for premium displays with maximum protection coverage.",
     price: 5499,
     originalPrice: 6299,
-    images: ["/placeholder.svg?height=400&width=400&text=75+inch+TV+Protector"],
+    images:["https://m.media-amazon.com/images/I/61z7+I+DCjL._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/61CtoBjdbSL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71QeEbsq9sL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61X0iU4aNyL._SL1080_.jpg",
+      "https://m.media-amazon.com/images/I/61McKwRvH-L._SL1000_.jpg"
+    ],
     variants: { size: '75"' },
     specifications: {
       material: "Tempered Glass",

@@ -254,7 +254,7 @@ export function generateMetadata({ params }: ProductPageProps) {
       title: product.name,
       description: product.description,
       images: product.images,
-      type: "product",
+      type: "website",
     },
   }
 }

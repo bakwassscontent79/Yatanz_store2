@@ -109,15 +109,15 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div className="space-y-4">
-            <h4 className="font-semibold text-foreground">Contact Info</h4>
+            <h4 className="font-semibold text-foreground">+919891638302</h4>
             <div className="space-y-3 text-sm">
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-primary" />
-                <span className="text-muted-foreground">+91-XXXXXXXXXX</span>
+                <span className="text-muted-foreground">+919891638302</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-primary" />
-                <span className="text-muted-foreground">info@yatanz.com</span>
+                <span className="text-muted-foreground">+919891638302</span>
               </div>
               <div className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 text-primary mt-0.5" />

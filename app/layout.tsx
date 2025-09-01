@@ -98,11 +98,11 @@ export default function RootLayout({
               description: "Premium home organization and storage solutions provider",
               contactPoint: {
                 "@type": "ContactPoint",
-                telephone: "+91-XXXXXXXXXX",
+                telephone: "+919891638302",
                 contactType: "customer service",
                 availableLanguage: ["English", "Hindi"],
               },
-              sameAs: ["https://www.instagram.com/yatanz", "https://wa.me/91XXXXXXXXXX"],
+              sameAs: ["https://www.instagram.com/yatanz_chaos.to.class", "https://wa.me/+919891638302"],
               address: {
                 "@type": "PostalAddress",
                 addressCountry: "IN",
